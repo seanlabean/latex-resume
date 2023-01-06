@@ -31,8 +31,24 @@
 			}
 		}
 		\subsection*{\normalsize\textsf{\textmd{#4}}}
-		\vspace{0.2in}
+		\vspace{-0.25in}
 	}
+
+\newenvironment{education}[3]
+	{
+		\subsection*{{\Large #1, \textmd{#2 -- \textit{#3}}}}
+        }
+        {
+        \vspace{0.2in}
+        }
+%		\subsubsection*{\textsf{\textmd{\textcolor{text}{\uppercase{#4}}}}}
+%		\begin{itemize}[before=\color{text}]
+%		\let\bullet\item
+%	}
+%	{
+%		\end{itemize}
+%		\vspace{0.2in}
+%	}
 
 \newenvironment{job}[4]
 	{
