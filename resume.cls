@@ -85,6 +85,16 @@
 		\end{itemize}
 		\vspace{0.2in}
 	}
+ \newenvironment{interests}
+	{
+		\section*{\header{Interests}}
+		\begin{itemize}[before=\color{text}, itemsep=0pt]
+		\let\bullet\item
+	}
+	{
+		\end{itemize}
+		\vspace{0.2in}
+	}
 
 \newenvironment{languages}
 	{
