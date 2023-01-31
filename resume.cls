@@ -19,7 +19,7 @@
 	\vspace{0.1in}
 }
 
-\newenvironment{contact}[4]
+\newenvironment{contact}[5]
 	{
 		\section*{
 			\fontsize{36}{44}\selectfont #1
@@ -28,9 +28,11 @@
 				\large\raggedright{\textsf{\textbf{#2}}}
 				\\
 				\large\textsf{\textbf{#3}}
+                    \\
+                    \large\textsf{\textbf{#4}}
 			}
 		}
-		\subsection*{\normalsize\textsf{\textmd{#4}}}
+		\subsection*{\normalsize\textsf{\textmd{#5}}}
 		\vspace{-0.25in}
 	}
 
